@@ -1,0 +1,50 @@
+<div class="container">
+    <div>
+        <button id="bt1" class="btn btn-secondary" (click)="onChangeDefaultMessage1()">Initial view - page one</button>
+    </div>
+    <div>
+        <button id="bt2" class="btn btn-secondary" (click)="onChangeDefaultMessage2()">Initial view - page two</button>
+    </div>
+    <div>
+        <button id="bt3" class="btn btn-primary" (click)="onChangeMessage1()">Page one view-
+            if 'professional' has
+
+            been 'bought'</button>
+    </div>
+    <div>
+        <button id="bt4" class="btn btn-primary" (click)="onChangeMessage2()">Page two view-
+            if 'professional' (or
+
+            'ultimate') has been
+            'bought'</button>
+    </div>
+
+
+</div>
+<div class="container">
+    <div>
+        <button id="bt5" class="btn btn-secondary" (click)="onChangeDefaultMessage1()">$1</button>
+    </div>
+    <div>
+        <button id="bt6" class="btn btn-secondary" (click)="onChangeDefaultMessage2()">$25</button>
+    </div>
+    <div>
+        <button id="bt7" class="btn btn-primary" (click)="onChangeDefaultMessage1()">$75</button>
+    </div>
+    <div>
+        <button id="bt8" class="btn btn-primary" (click)="onChangeDefaultMessage2()">$115
+        </button>
+    </div>
+    <div>
+        <button id="bt5" class="btn btn-success" (click)="onChangeMessage1()">Bought</button>
+    </div>
+    <div>
+        <button id="bt6" class="btn btn-success" (click)="onChangeMessage2()">$115</button>
+    </div>
+    <div>
+        <button id="bt7" class="btn btn-primary" disabled={{buttonDisabled}} (click)="onChangeMessage1()">$1</button>
+    </div>
+    <div>
+        <button id="bt8" class="btn btn-primary" disabled={{buttonDisabled}} (click)="onChangeMessage2()">$25</button>
+    </div>
+</div>

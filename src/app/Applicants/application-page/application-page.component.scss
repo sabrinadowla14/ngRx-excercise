@@ -1,0 +1,52 @@
+#bt1, #bt2, #bt3, #bt4  {
+   
+    margin-right: 0px;
+    margin-top: 20px;
+    height: 150px;
+    word-wrap: break-word;
+    width: 250px;
+}
+
+#bt5, #bt6, #bt7, #bt8, #bt9, #bt10, #bt11, #bt12  {
+   
+    margin-right: 0px;
+    margin-top: 20px;
+    height: 150px;
+    word-wrap: break-word;
+    width: 125px;
+}
+
+.container button {
+   
+    padding: 10px 24px; /*  padding */
+    cursor: pointer; /* Pointericon */
+    float: left; /* Float the buttons side by side */
+  }
+
+  .empty {
+      background-color: purple
+  }
+  
+  /* Clear floats (clearfix) */
+  .container:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  @media screen and (max-device-width:800px), screen and (max-width:800px) {
+    .container button {
+        display:block;
+        float:none;
+        justify-content: center;
+        
+    }
+    #bt1, #bt2, #bt3, #bt4  {
+   
+        margin-right: 15px;
+        margin-top: 20px;
+        
+    }
+
+
+}

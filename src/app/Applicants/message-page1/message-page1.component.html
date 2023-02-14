@@ -1,0 +1,21 @@
+<div>
+
+    <div class="my-3 textPos">
+        Applicant message: {{applicantMsg1$ | async}}
+    </div>
+    <div class="center">
+        <div>
+            <button id="bt5" class="btn btn-secondary">$1</button>
+        </div>
+        <div>
+            <button id="bt6" class="btn btn-secondary">$25</button>
+        </div>
+
+    </div>
+
+
+    <div class="center">
+        <button type="button" (click)="onCancel()" class="btn btn-warning">{{text}}</button>
+    </div>
+
+</div>

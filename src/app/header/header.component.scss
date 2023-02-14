@@ -1,0 +1,17 @@
+
+.navbar-nav .nav-item {
+    font-size: 22px;
+    margin-bottom: 15px;
+   
+}
+
+@media screen and (max-device-width:800px), screen and (max-width:800px) {
+    .navbar-nav .nav-item {
+        justify-content: right;
+        background-color:rgb(128, 128, 128);
+    }  
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
